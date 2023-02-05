@@ -19,13 +19,13 @@ export default function RootLayout({
     <html>
 
 
-      <body className="bg-[#aca3a1]">
+      <body className="bg-[#aca3a1] max-w-7xl mx-auto">
         {/*Header*/}
         <Header/>
         {/*banner*/}
         <Banner/>
-        {/*content*/}
-        
+
+
         {children}
       </body>
     </html>
