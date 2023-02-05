@@ -4,7 +4,7 @@ import Image from "next/image"
 
 function Header() {
   return (
-    <header className="flex items-center justify-between space-x-2 font-bold px-10 py-5">
+    <header className="flex items-center justify-between space-x-2 font-bold px-10 py-5 underline">
         <div className="flex items-center space-x-2">
             <Link 
                 href="/"
@@ -25,12 +25,11 @@ function Header() {
         <div className="">
             <Link
                 href="https://github.com/PKFireBarry"
-                className="px-4 py-3 text-sm md:text-base bg-blue-900 text-slate-800 flex items-center
+                className="px-4 py-3 text-sm md:text-base bg-[#fcedd8] text-[#333744] flex items-center
                 rounded-full text-center"
             >
                 Github
             </Link>
-
         </div>
     </header>
   )
