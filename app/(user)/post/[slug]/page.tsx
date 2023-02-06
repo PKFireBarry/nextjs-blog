@@ -20,7 +20,7 @@ export async function generateStaticParams() {
     `
 
     const slugs = await sanityClient.fetch(query);
-    const slugRoutes = slugs.map((slug) => slug.slug.current)
+    const slugRoutes = slugs.map((slug: { slug: { current: any; }; }) => slug.slug.current)
 
     return slugRoutes.map ((slug: any) => ({
         slug,
@@ -41,7 +41,7 @@ async function Post({ params : {slug}}: Props)  {
 
 
 
-  return (
+return (
     <article className='px-10 pb-28'>
         <section className='space-y-2 border text-white'>
             <div className='relative min-h-56 flex flex-col md:flex-row justify-between'>
