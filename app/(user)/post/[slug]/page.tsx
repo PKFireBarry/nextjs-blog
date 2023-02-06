@@ -12,6 +12,21 @@ type Props = {
     };
 };
 
+export async function generateStaticParams() {
+    const query = groq`
+    *[_type == "post"] {
+        slug
+    }
+    `
+
+    const slugs = await sanityClient.fetch(query);
+    const slugRoutes = slugs.map((slug) => slug.slug.current)
+
+    return slugRoutes.map ((slug: any) => ({
+        slug,
+    }));
+}
+
 async function Post({ params : {slug}}: Props)  {
 
     const query = groq`
@@ -91,8 +106,7 @@ async function Post({ params : {slug}}: Props)  {
 
         <PortableText value={post.body} components={RichTextComponents} />
 
-    </article>
-  )
+    </article>  )
 }
 
 export default Post
