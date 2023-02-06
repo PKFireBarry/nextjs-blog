@@ -12,6 +12,9 @@ type Props = {
     };
 };
 
+export const revalidate = 120; //revalidate every 2 minutes
+
+
 export async function generateStaticParams() {
     const query = groq`
     *[_type == "post"] {
