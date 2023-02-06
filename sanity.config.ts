@@ -4,6 +4,7 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import { theme } from './theme';
 import StudioNavbar from './components/StudioNavbar';
+import { getDefaultDocumentNode } from './structure';
 
 
 const projectId = process.env.SANITY_PROJECT_ID!;
@@ -16,7 +17,9 @@ export default defineConfig({
   title: 'content-studio',
   projectId: 'n347xevw',
   dataset: 'production',
-  plugins: [deskTool(), visionTool()],
+  plugins: [deskTool({
+    defaultDocumentNode: getDefaultDocumentNode,
+  }), visionTool()],
   schema: {
     types: schemaTypes,
   },

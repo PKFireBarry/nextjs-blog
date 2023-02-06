@@ -2,6 +2,7 @@ import urlFor from "../lib/urlFor";
 import { Post } from "../typings";
 import Image from "next/image";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
+import ClientSideRoute from "./clientSideRoute";
 
 
 type Props = {
@@ -17,7 +18,8 @@ export function BlogList({posts}: Props) {
         <hr></hr>
         <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-24">
             {posts.map((post) => (
-                <div key={post._id}
+                <ClientSideRoute key={post._id}route={`/post/${post.slug.current}`}>
+                <div
                     className="flex flex-col group cursor-pointer"
                 >
                     <div 
@@ -70,6 +72,7 @@ export function BlogList({posts}: Props) {
                         <ArrowUpRightIcon className="h-5 inline-block ml-1"/>
                     </p>
                 </div>
+                </ClientSideRoute>
             ))}
             </div>
             
