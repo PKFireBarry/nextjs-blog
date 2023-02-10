@@ -4,6 +4,25 @@ https://a-really-cool-blog.vercel.app/
 
 This dynamic blog site represents the forefront of modern web development, utilizing the latest tools and technologies to deliver a cutting-edge user experience. Built with Next.js 13, the site showcases a seamless integration of dynamic and static data handling, offering users a truly dynamic and responsive browsing experience. The fully responsive design, powered by Tailwind CSS, ensures that users can enjoy the site on any device, while the preview mode with Sanity.io allows for easy content management.
 
-In addition to its dynamic design, the site also boasts a number of advanced features that set it apart from other blogs. The optimized app folder structure, dynamic page routing, and GROQ query language allow for easy navigation and customization, while the secure Sanity studio integration with authentication ensures that sensitive information is always protected. TypeScript is also utilized for error reduction, making for a smoother and more efficient user experience.
+## Local Setup
+1. clone or fork the repo onto your computer
+2. download and install the latest version of node.js(https://nodejs.org/en/) for you Operating System
+3. using youre Command Line navigate to the folder where the files are saved
+4. run 'npm i' to install all the dependencies
+5. next run 'npm run dev' to start the server on localhost:3000
 
-Finally, the site is deployed on Vercel, a cutting-edge platform that provides users with lightning-fast loading speeds and unmatched reliability. Whether you're a seasoned web developer or just looking for an informative and engaging blog, this site is sure to impress. So why wait? Browse the site today and experience the future of web development!
+## Features
+
+### How to use for readers
+- Click on a blog post to veiw an article 
+
+### How to use for admins
+- Navagate to https://a-really-cool-blog.vercel.app/studio
+- Login with Google authentication 
+- You now will be in admin Mode with the ability to edit, add, and preview post
+- To add a post to the website from the studio click the post section add a new author, title, slug, and description (does support rich-text for styling the blog post like an HTML Document) in the post field and click the publish button
+- To edit a post to the website from the studio click the post section and select the pencil/pen icon to reopen a post that has been published
+- to preview a post before it is published to the client click the post section and change to the preview tab in the editor. it will load a version of the website with your new post without having to publish it to the website first
+
+
+
