@@ -13,18 +13,18 @@ This dynamic blog site represents the forefront of modern web development, utili
 
 ## Packages
 
-"@heroicons/react": "^2.0.14",
-"@portabletext/react": "^2.0.1",
-"@sanity/image-url": "^1.0.2",
-"@sanity/vision": "^3.0.0",
-"@tailwindcss/line-clamp": "^0.4.2",
-"next": "latest",
-"next-sanity": "^4.1.2",
-"react": "18.2.0",
-"react-dom": "18.2.0",
-"sanity": "^3.0.0",
-"sanity-plugin-iframe-pane": "^2.1.1",
-"styled-components": "^5.2.0"
+heroicons/react
+portabletext/react
+sanity/image-url
+sanity/vision"
+tailwindcss/line-clamp
+next"
+next-sanity"
+react"
+react-dom"
+sanity"
+sanity-plugin-iframe-pane"
+styled-components"
 
 
 - `swr`: a package for data fetching in React
