@@ -13,21 +13,21 @@ This dynamic blog site represents the forefront of modern web development, utili
 
 ## Packages
 
-heroicons/react
-portabletext/react
-sanity/image-url
-sanity/vision"
-tailwindcss/line-clamp
-next"
-next-sanity"
-react"
-react-dom"
-sanity"
-sanity-plugin-iframe-pane"
-styled-components"
+- heroicons/react
+- portabletext/react
+- sanity/image-url
+- sanity/vision"
+- tailwindcss/line-clamp
+- next
+- next-sanity
+- react
+- react-dom
+- sanity
+- sanity-plugin-iframe-pane
+- styled-components
 
 
-- `swr`: a package for data fetching in React
+
 
 ### How to use for readers
 - Click on a blog post to view an article 
