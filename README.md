@@ -13,18 +13,18 @@ This dynamic blog site represents the forefront of modern web development, utili
 
 ## Packages
 
-- heroicons/react: A package providing a collection of free, open-source SVG icons and React components.
-- portabletext/react: A package with React components for rendering rich text content created with the Portable Text format.
-- sanity/image-url: A package with helper functions for transforming and optimizing image URLs from Sanity.io.
-- sanity/vision: A package with a standalone image viewer for Sanity.io.
-- tailwindcss/line-clamp: A package with a utility class for truncating text to a specific number of lines.
-- next: A framework for building server-side rendered React applications.
-- next-sanity: A set of tools and helpers for integrating Sanity.io with Next.js.
-- react: The core React library for building user interfaces with JavaScript.
-- react-dom: A library for rendering React components to the DOM.
-- sanity: A JavaScript client for interacting with the Sanity.io API.
-- sanity-plugin-iframe-pane: A plugin for embedding external web pages or web applications in an iframe within the Sanity.io Studio.
-- styled-components: A package for writing CSS code for your React components using JavaScript.```
+- `heroicons/react`: A package providing a collection of free, open-source SVG icons and React components.
+- `portabletext/react`: A package with React components for rendering rich text content created with the Portable Text format.
+- `sanity/image-url`: A package with helper functions for transforming and optimizing image URLs from Sanity.io.
+- `sanity/vision`: A package with a standalone image viewer for Sanity.io.
+- `tailwindcss/line-clamp`: A package with a utility class for truncating text to a specific number of lines.
+- `next`: A framework for building server-side rendered React applications.
+- `next-sanity`: A set of tools and helpers for integrating Sanity.io with Next.js.
+- `react`: The core React library for building user interfaces with JavaScript.
+- `react-dom`: A library for rendering React components to the DOM.
+- `sanity`: A JavaScript client for interacting with the Sanity.io API.
+- `sanity-plugin-iframe-pane`: A plugin for embedding external web pages or web applications in an iframe within the Sanity.io Studio.
+- `styled-components`: A package for writing CSS code for your React components using JavaScript.```
 
 
 
