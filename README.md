@@ -1,3 +1,5 @@
+[![See Video demo](https://img.youtube.com/vi/i7Jx6tf5Bow/default.jpg)](https://youtu.be/i7Jx6tf5Bow)
+
 https://a-really-cool-blog.vercel.app/
 
 # A blog site made with NextJS + TailwindCSS
